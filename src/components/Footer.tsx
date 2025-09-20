@@ -17,17 +17,17 @@ const Footer = () => {
               <h3 className="text-xl font-bold text-gradient">WorkZen</h3>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-md">
-              Empowering teams with mindful productivity and Web3-secured analytics. 
-              Transform how your team approaches work-life balance with blockchain technology.
+              Potenciando equipos con productividad consciente y análisis asegurados con Web3. 
+              Transforma cómo tu equipo aborda el equilibrio vida-trabajo con tecnología blockchain.
             </p>
             <p className="text-workzen text-sm font-medium mt-3">
-              Work better. Work human.
+              Trabaja mejor. Trabaja humano.
             </p>
           </div>
           
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Quick Links</h4>
+            <h4 className="font-semibold text-foreground mb-4">Enlaces Rápidos</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <a 
@@ -36,7 +36,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-workzen transition-colors flex items-center space-x-1"
                 >
-                  <span>Live Demo</span>
+                  <span>Demo en Vivo</span>
                   <ExternalLink size={12} />
                 </a>
               </li>
@@ -47,12 +47,12 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-workzen transition-colors flex items-center space-x-1"
                 >
-                  <span>Documentation</span>
+                  <span>Documentación</span>
                   <ExternalLink size={12} />
                 </a>
               </li>
               <li>
-                <span className="text-muted-foreground/50 cursor-not-allowed">Features</span>
+                <span className="text-muted-foreground/50 cursor-not-allowed">Características</span>
               </li>
               <li>
                 <span className="text-muted-foreground/50 cursor-not-allowed">API</span>
@@ -62,7 +62,7 @@ const Footer = () => {
           
           {/* Connect */}
           <div>
-            <h4 className="font-semibold text-foreground mb-4">Connect</h4>
+            <h4 className="font-semibold text-foreground mb-4">Conectar</h4>
             <div className="flex space-x-4">
               <a 
                 href="https://github.com/Reaxtiv/workzen" 
@@ -73,8 +73,10 @@ const Footer = () => {
                 <Github size={18} />
               </a>
               <a 
-                href="#" 
-                className="p-2 bg-background/50 rounded-lg hover:bg-workzen/10 hover:text-workzen transition-all duration-300 opacity-50 cursor-not-allowed"
+                href="https://x.com/WorkZen_app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 bg-background/50 rounded-lg hover:bg-workzen/10 hover:text-workzen transition-all duration-300"
               >
                 <Twitter size={18} />
               </a>
@@ -85,13 +87,13 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © 2024 WorkZen. Built with blockchain technology for the future of work.
+            © 2024 WorkZen. Construido con tecnología blockchain para el futuro del trabajo.
           </p>
           
           <div className="flex items-center space-x-1 text-sm text-muted-foreground mt-4 md:mt-0">
-            <span>Made with</span>
+            <span>Hecho con</span>
             <Heart size={14} className="text-workzen" />
-            <span>for productive teams</span>
+            <span>para equipos productivos</span>
           </div>
         </div>
       </div>

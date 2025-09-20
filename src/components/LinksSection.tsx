@@ -14,48 +14,48 @@ import {
 const LinksSection = () => {
   const links = [
     {
-      title: "Live Demo",
-      description: "Experience WorkZen in action with our interactive demo",
+      title: "Demo en Vivo",
+      description: "Experimenta WorkZen en acción con nuestro demo interactivo",
       icon: Rocket,
       url: "https://workzen-theta.vercel.app",
       color: "bg-blue-500/10 text-blue-400 border-blue-500/20",
       buttonColor: "bg-blue-500 hover:bg-blue-600"
     },
     {
-      title: "GitHub Repository",
-      description: "Explore the open-source codebase and contribute",
+      title: "Repositorio GitHub",
+      description: "Explora el código fuente abierto y contribuye",
       icon: Github,
       url: "https://github.com/Reaxtiv/workzen",
       color: "bg-gray-500/10 text-gray-400 border-gray-500/20",
       buttonColor: "bg-gray-700 hover:bg-gray-800"
     },
     {
-      title: "Follow on Twitter",
-      description: "Stay updated with the latest WorkZen developments",
+      title: "Seguir en X",
+      description: "Mantente actualizado con los últimos desarrollos de WorkZen",
       icon: Twitter,
-      url: "#", // Usuario debe proporcionar este enlace
+      url: "https://x.com/WorkZen_app",
       color: "bg-blue-400/10 text-blue-400 border-blue-400/20",
       buttonColor: "bg-blue-400 hover:bg-blue-500"
     },
     {
       title: "Smart Contract",
-      description: "View the blockchain smart contract powering WorkZen",
+      description: "Ve el smart contract de blockchain que potencia WorkZen",
       icon: FileText,
-      url: "#", // Usuario debe proporcionar este enlace
+      url: "#",
       color: "bg-workzen/10 text-workzen border-workzen/20",
       buttonColor: "bg-workzen hover:bg-workzen/90"
     },
     {
       title: "Video Demo",
-      description: "Comprehensive walkthrough of WorkZen features",
+      description: "Tutorial completo de las características de WorkZen",
       icon: PlayCircle,
-      url: "#", // Usuario debe proporcionar este enlace
+      url: "#",
       color: "bg-red-500/10 text-red-400 border-red-500/20",
       buttonColor: "bg-red-500 hover:bg-red-600"
     },
     {
-      title: "Documentation",
-      description: "Complete technical documentation and API references",
+      title: "Documentación",
+      description: "Documentación técnica completa y referencias de API",
       icon: Code,
       url: "https://github.com/Reaxtiv/workzen#readme",
       color: "bg-purple-500/10 text-purple-400 border-purple-500/20",
@@ -68,10 +68,10 @@ const LinksSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-6">
-            Explore WorkZen
+            Explora WorkZen
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Dive deeper into the platform with our comprehensive resources and live demonstrations
+            Sumérgete más en la plataforma con nuestros recursos integrales y demostraciones en vivo
           </p>
         </div>
         
@@ -110,20 +110,20 @@ const LinksSection = () => {
                     {isActive ? (
                       <a href={link.url} target="_blank" rel="noopener noreferrer">
                         <span className="flex items-center justify-center space-x-2">
-                          <span>{link.title === "Live Demo" ? "Try Now" : link.title === "GitHub Repository" ? "View Code" : "Visit"}</span>
+                          <span>{link.title === "Demo en Vivo" ? "Probar Ahora" : link.title === "Repositorio GitHub" ? "Ver Código" : "Visitar"}</span>
                           <ExternalLink size={16} />
                         </span>
                       </a>
                     ) : (
                       <span className="flex items-center justify-center space-x-2">
-                        <span>Coming Soon</span>
+                        <span>Próximamente</span>
                       </span>
                     )}
                   </Button>
                   
                   {!isActive && (
                     <p className="text-xs text-muted-foreground mt-2">
-                      Link will be available soon
+                      Enlace estará disponible pronto
                     </p>
                   )}
                 </div>

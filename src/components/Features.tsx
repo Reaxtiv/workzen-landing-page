@@ -15,56 +15,56 @@ const Features = () => {
   const features = [
     {
       icon: BarChart3,
-      title: "Intelligent Analytics",
-      description: "Track team productivity with AI-powered insights and comprehensive dashboards that reveal meaningful patterns.",
+      title: "Análisis Inteligente",
+      description: "Rastrea la productividad del equipo con insights impulsados por IA y paneles integrales que revelan patrones significativos.",
       color: "text-blue-400"
     },
     {
       icon: Heart,
-      title: "Wellness Focus",
-      description: "Promote healthy work-life balance with mindful productivity tracking and burnout prevention tools.",
+      title: "Enfoque en Bienestar",
+      description: "Promueve un equilibrio saludable entre vida y trabajo con seguimiento consciente de productividad y herramientas de prevención de agotamiento.",
       color: "text-pink-400"
     },
     {
       icon: Shield,
-      title: "Blockchain Security",
-      description: "Your data is immutably secured on the blockchain, ensuring complete transparency and tamper-proof records.",
+      title: "Seguridad Blockchain",
+      description: "Tus datos están asegurados de forma inmutable en la blockchain, garantizando transparencia completa y registros a prueba de manipulación.",
       color: "text-workzen"
     },
     {
       icon: Users,
-      title: "Team Collaboration",
-      description: "Role-based dashboards and collaborative features that bring teams together while respecting individual privacy.",
+      title: "Colaboración en Equipo",
+      description: "Paneles basados en roles y características colaborativas que unen a los equipos respetando la privacidad individual.",
       color: "text-purple-400"
     },
     {
       icon: Zap,
-      title: "MetaMask Integration",
-      description: "Seamless Web3 authentication through MetaMask wallet, bringing decentralized identity to workplace productivity.",
+      title: "Integración MetaMask",
+      description: "Autenticación Web3 fluida a través de MetaMask wallet, trayendo identidad descentralizada a la productividad laboral.",
       color: "text-orange-400"
     },
     {
       icon: Brain,
-      title: "Smart Insights",
-      description: "AI-driven recommendations help optimize workflow patterns and identify opportunities for improvement.",
+      title: "Insights Inteligentes",
+      description: "Recomendaciones impulsadas por IA ayudan a optimizar patrones de flujo de trabajo e identificar oportunidades de mejora.",
       color: "text-cyan-400"
     },
     {
       icon: TrendingUp,
-      title: "Performance Tracking",
-      description: "Monitor progress with detailed metrics that focus on sustainable productivity rather than just output.",
+      title: "Seguimiento de Rendimiento",
+      description: "Monitorea el progreso con métricas detalladas que se enfocan en productividad sostenible en lugar de solo producción.",
       color: "text-green-400"
     },
     {
       icon: Clock,
-      title: "Time Management",
-      description: "Advanced time tracking with focus on meaningful work and healthy boundaries between work and rest.",
+      title: "Gestión de Tiempo",
+      description: "Seguimiento avanzado de tiempo enfocado en trabajo significativo y límites saludables entre trabajo y descanso.",
       color: "text-indigo-400"
     },
     {
       icon: Lock,
-      title: "Privacy First",
-      description: "End-to-end encryption ensures your sensitive productivity data remains completely private and secure.",
+      title: "Privacidad Primero",
+      description: "El cifrado de extremo a extremo asegura que tus datos sensibles de productividad permanezcan completamente privados y seguros.",
       color: "text-red-400"
     }
   ];
@@ -74,10 +74,10 @@ const Features = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gradient mb-6">
-            Powerful Features
+            Características Poderosas
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Everything you need to transform how your team approaches productivity and wellness
+            Todo lo que necesitas para transformar cómo tu equipo aborda la productividad y el bienestar
           </p>
         </div>
         

@@ -11,14 +11,14 @@ const Web3Section = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            <span className="text-foreground">Secured by</span>
+            <span className="text-foreground">Asegurado por</span>
             <br />
-            <span className="text-gradient">Blockchain Technology</span>
+            <span className="text-gradient">Tecnología Blockchain</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Your productivity data deserves the highest level of security. 
-            WorkZen leverages blockchain technology to ensure data immutability, 
-            transparency, and complete user control.
+            Tus datos de productividad merecen el más alto nivel de seguridad. 
+            WorkZen aprovecha la tecnología blockchain para asegurar inmutabilidad de datos, 
+            transparencia y control completo del usuario.
           </p>
         </div>
         
@@ -31,11 +31,11 @@ const Web3Section = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-foreground">
-                  Immutable Data Records
+                  Registros de Datos Inmutables
                 </h3>
                 <p className="text-muted-foreground">
-                  All productivity metrics are stored on-chain, creating tamper-proof 
-                  records that you can trust completely.
+                  Todas las métricas de productividad se almacenan en la cadena, creando 
+                  registros a prueba de manipulación en los que puedes confiar completamente.
                 </p>
               </div>
             </div>
@@ -46,11 +46,11 @@ const Web3Section = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-foreground">
-                  MetaMask Authentication
+                  Autenticación MetaMask
                 </h3>
                 <p className="text-muted-foreground">
-                  Secure, decentralized login using your MetaMask wallet. 
-                  No passwords, no data breaches, just pure Web3 security.
+                  Inicio de sesión seguro y descentralizado usando tu wallet MetaMask. 
+                  Sin contraseñas, sin violaciones de datos, solo seguridad Web3 pura.
                 </p>
               </div>
             </div>
@@ -61,11 +61,11 @@ const Web3Section = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-foreground">
-                  User-Controlled Privacy
+                  Privacidad Controlada por el Usuario
                 </h3>
                 <p className="text-muted-foreground">
-                  You own your data completely. Grant and revoke access permissions 
-                  with the transparency of smart contracts.
+                  Eres dueño completo de tus datos. Otorga y revoca permisos de acceso 
+                  con la transparencia de los smart contracts.
                 </p>
               </div>
             </div>
@@ -76,11 +76,11 @@ const Web3Section = () => {
               </div>
               <div>
                 <h3 className="text-xl font-semibold mb-2 text-foreground">
-                  Smart Contract Integration
+                  Integración de Smart Contracts
                 </h3>
                 <p className="text-muted-foreground">
-                  Automated processes and trustless interactions powered by 
-                  smart contracts ensure reliability and transparency.
+                  Procesos automatizados e interacciones sin confianza impulsados por 
+                  smart contracts aseguran confiabilidad y transparencia.
                 </p>
               </div>
             </div>
@@ -94,10 +94,10 @@ const Web3Section = () => {
                   <Shield className="w-12 h-12 text-workzen" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-2">
-                  Web3 Powered
+                  Potenciado por Web3
                 </h3>
                 <p className="text-muted-foreground mb-6">
-                  Experience the future of secure, decentralized productivity tracking
+                  Experimenta el futuro del seguimiento de productividad seguro y descentralizado
                 </p>
               </div>
               
@@ -105,11 +105,11 @@ const Web3Section = () => {
                 className="w-full bg-workzen hover:bg-workzen/90 text-primary-foreground font-semibold py-3 rounded-xl"
                 size="lg"
               >
-                Explore Smart Contract
+                Explorar Smart Contract
               </Button>
               
               <p className="text-xs text-muted-foreground mt-4">
-                Built on Ethereum • Secured by MetaMask
+                Construido en Ethereum • Asegurado por MetaMask
               </p>
             </Card>
           </div>

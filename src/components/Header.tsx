@@ -24,7 +24,7 @@ const Header = () => {
               className="flex items-center space-x-2 text-foreground hover:text-workzen transition-colors"
             >
               <ExternalLink size={16} />
-              <span>Live Demo</span>
+              <span>Demo en Vivo</span>
             </a>
             
             <a 
@@ -38,7 +38,7 @@ const Header = () => {
             </a>
             
             <Button variant="outline" size="sm" className="border-workzen text-workzen hover:bg-workzen hover:text-primary-foreground">
-              Get Started
+              Comenzar
             </Button>
           </nav>
         </div>
