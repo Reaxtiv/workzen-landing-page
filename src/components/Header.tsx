@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Twitter, ExternalLink, PlayCircle, FileText } from "lucide-react";
-import workzenLogo from "@/assets/workzen-logo.jpg";
+import workzenLogo from "@/assets/workzen-logo-icon.png";
 
 const Header = () => {
   return (
@@ -11,9 +11,9 @@ const Header = () => {
             <img 
               src={workzenLogo} 
               alt="WorkZen Logo" 
-              className="w-10 h-10 rounded-full workzen-glow"
+              className="w-10 h-10"
             />
-            <h1 className="text-2xl font-bold text-gradient">WorkZen</h1>
+            <h1 className="text-2xl font-bold text-workzen">WorkZen</h1>
           </div>
           
           <nav className="hidden md:flex items-center space-x-6">

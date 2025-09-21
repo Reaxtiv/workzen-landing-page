@@ -1,5 +1,5 @@
 import { Github, Twitter, ExternalLink, Heart } from "lucide-react";
-import workzenLogo from "@/assets/workzen-logo.jpg";
+import workzenLogo from "@/assets/workzen-logo-icon.png";
 
 const Footer = () => {
   return (
@@ -12,9 +12,9 @@ const Footer = () => {
               <img 
                 src={workzenLogo} 
                 alt="WorkZen Logo" 
-                className="w-8 h-8 rounded-full"
+                className="w-8 h-8"
               />
-              <h3 className="text-xl font-bold text-gradient">WorkZen</h3>
+              <h3 className="text-xl font-bold text-workzen">WorkZen</h3>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed max-w-md">
               Potenciando equipos con productividad consciente y análisis asegurados con Web3. 

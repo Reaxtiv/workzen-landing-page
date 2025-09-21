@@ -41,7 +41,7 @@ const LinksSection = () => {
       title: "Smart Contract",
       description: "Ve el smart contract de blockchain que potencia WorkZen",
       icon: FileText,
-      url: "#",
+      url: "https://sepolia.etherscan.io/address/0xa08751def5106fd658ce18e10bae948f8cdbfef2",
       color: "bg-workzen/10 text-workzen border-workzen/20",
       buttonColor: "bg-workzen hover:bg-workzen/90"
     },
@@ -49,7 +49,7 @@ const LinksSection = () => {
       title: "Video Demo",
       description: "Tutorial completo de las características de WorkZen",
       icon: PlayCircle,
-      url: "#",
+      url: "https://youtu.be/zp8XorDPcoo",
       color: "bg-red-500/10 text-red-400 border-red-500/20",
       buttonColor: "bg-red-500 hover:bg-red-600"
     },

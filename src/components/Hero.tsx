@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Shield, BarChart3, Heart } from "lucide-react";
-import workzenLogo from "@/assets/workzen-logo.jpg";
+import { ArrowRight, Shield, BarChart3, Heart, Users } from "lucide-react";
+import workzenLogo from "@/assets/workzen-logo-icon.png";
 
 const Hero = () => {
   return (
@@ -14,27 +14,26 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Logo */}
-          <div className="mb-8 flex justify-center">
+          <div className="mb-12 flex justify-center">
             <img 
               src={workzenLogo} 
               alt="WorkZen Logo" 
-              className="w-24 h-24 rounded-full workzen-glow animate-float"
+              className="w-32 h-32 animate-float"
             />
           </div>
           
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            <span className="text-gradient">WorkZen</span>
+            <span className="text-workzen">WorkZen</span>
             <br />
-            <span className="text-foreground/90">Productividad Consciente</span>
-            <br />
-            <span className="text-workzen">Encuentra Web3</span>
+            <span className="text-foreground">Productividad Consciente</span>
           </h1>
           
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            Potencia tu equipo con seguimiento inteligente de productividad y analíticas seguras con blockchain. 
-            <span className="text-workzen font-medium"> Trabaja mejor. Trabaja humano.</span>
+          <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+            Impulsa el bienestar de tu equipo con herramientas que promueven un equilibrio real entre productividad y salud laboral. 
+            Ofrecemos datos claros y seguros para que las personas trabajen con más confianza, motivación y satisfacción.
+            <span className="text-workzen font-medium block mt-2"> Trabaja mejor. Trabaja humano.</span>
           </p>
           
           {/* Key Features Pills */}
@@ -54,26 +53,26 @@ const Hero = () => {
           </div>
           
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button 
               size="lg" 
-              className="bg-workzen hover:bg-workzen/90 text-primary-foreground font-semibold px-8 py-6 text-lg rounded-xl workzen-glow"
+              className="bg-workzen hover:bg-workzen-dark text-white font-semibold px-8 py-6 text-lg rounded-xl"
+              asChild
+            >
+              <a href="#waitlist">
+                <Users className="mr-2" size={20} />
+                Únete a la Lista de Espera
+              </a>
+            </Button>
+            
+            <Button 
+              size="lg" 
+              className="bg-white text-workzen border-2 border-workzen hover:bg-workzen hover:text-white font-semibold px-8 py-6 text-lg rounded-xl"
               asChild
             >
               <a href="https://workzen-theta.vercel.app" target="_blank" rel="noopener noreferrer">
                 Probar Demo
                 <ArrowRight className="ml-2" size={20} />
-              </a>
-            </Button>
-            
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-workzen text-workzen hover:bg-workzen hover:text-primary-foreground px-8 py-6 text-lg rounded-xl"
-              asChild
-            >
-              <a href="https://github.com/Reaxtiv/workzen" target="_blank" rel="noopener noreferrer">
-                Ver en GitHub
               </a>
             </Button>
           </div>
