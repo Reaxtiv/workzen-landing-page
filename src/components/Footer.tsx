@@ -1,5 +1,6 @@
 import { Github, Twitter, ExternalLink, Heart } from "lucide-react";
 import workzenLogo from "@/assets/workzen-logo-icon.png";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 const Footer = () => {
   return (
@@ -63,7 +64,7 @@ const Footer = () => {
           {/* Connect */}
           <div>
             <h4 className="font-semibold text-foreground mb-4">Conectar</h4>
-            <div className="flex space-x-4">
+            <div className="flex space-x-4 mb-4">
               <a 
                 href="https://github.com/Reaxtiv/workzen" 
                 target="_blank" 
@@ -80,6 +81,10 @@ const Footer = () => {
               >
                 <Twitter size={18} />
               </a>
+            </div>
+            <div className="flex items-center space-x-2">
+              <span className="text-sm text-muted-foreground">Tema:</span>
+              <ThemeToggle />
             </div>
           </div>
         </div>

@@ -1,9 +1,10 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Users, CheckCircle, Clock, Shield } from "lucide-react";
 
 const WaitlistSection = () => {
   return (
-    <section id="waitlist" className="py-24 bg-gradient-to-br from-workzen/5 to-white relative">
+    <section id="waitlist" className="py-24 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -74,30 +75,37 @@ const WaitlistSection = () => {
               </div>
             </div>
             
-            {/* Google Form */}
-            <Card className="p-8 bg-white border-2 border-workzen/20">
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-workzen mb-2">
+            {/* Demo Request */}
+            <Card className="p-8 workzen-card border-workzen/20 text-center">
+              <div className="mb-8">
+                <h3 className="text-2xl font-bold text-workzen mb-4">
                   Solicita tu Demo
                 </h3>
-                <p className="text-muted-foreground">
-                  Completa el formulario y nos pondremos en contacto contigo
+                <p className="text-muted-foreground mb-6">
+                  Completa nuestro formulario y nos pondremos en contacto contigo en menos de 24 horas para agendar una demo personalizada.
                 </p>
+                
+                <div className="bg-workzen/10 p-6 rounded-lg mb-6">
+                  <h4 className="font-semibold text-workzen mb-2">¿Qué incluye la demo?</h4>
+                  <ul className="text-sm text-muted-foreground space-y-1">
+                    <li>• Presentación personalizada de WorkZen</li>
+                    <li>• Análisis de las necesidades de tu equipo</li>
+                    <li>• Configuración y onboarding gratuito</li>
+                    <li>• Precios especiales para early adopters</li>
+                  </ul>
+                </div>
               </div>
               
-              <div className="relative">
-                <iframe 
-                  src="https://docs.google.com/forms/d/e/1FAIpQLSc2WbXCbcQSutGkHJf3r9fi0atusX_epgib-FwEypURBoUstQ/viewform?embedded=true" 
-                  width="100%" 
-                  height="800" 
-                  frameBorder="0" 
-                  marginHeight={0} 
-                  marginWidth={0}
-                  className="rounded-lg"
-                >
-                  Cargando formulario...
-                </iframe>
-              </div>
+              <Button 
+                size="lg" 
+                className="bg-workzen hover:bg-workzen-dark text-white font-semibold px-12 py-6 text-lg rounded-xl w-full"
+                asChild
+              >
+                <a href="https://forms.gle/ZQmRQkAet2uYGMPC7" target="_blank" rel="noopener noreferrer">
+                  <Users className="mr-3" size={24} />
+                  Acceder al Formulario
+                </a>
+              </Button>
             </Card>
           </div>
         </div>
